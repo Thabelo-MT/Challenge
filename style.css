@@ -23,17 +23,28 @@ h1 {
         margin-bottom: 0%;
         font-size: 250%;
 }
+h4 {
+    background-color: 	rgb(50,69,139);
+    width: 35%;
+}
 .invoice {
     /* padding-left: 5%; */
     margin-left: 20%;
-    border: 1px solid black;
+    border: 1px solid rgba(145, 145, 124, 0.909);
+    border-width: 15%;
+}
+#due_date {
+    margin-left: 20%;
+    border: 1px solid rgba(125, 124, 124, 0.209);
+     background-color: 	#B0C4DE ;
 }
 .container {
     display: flex;
     flex-direction: row;
 }
 #invoice {
-    margin-left: 53%;
+    margin-left: 45%;
+    font-size: small;
 }
 main {
     display: flex;
@@ -43,6 +54,7 @@ main {
 }
 th {
     background-color: 	rgb(50,69,139);
+    /* align-items: center; */ 
 }
 h2 {
     font-weight: bold;
