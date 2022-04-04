@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+h1 {
+    color: navy;
+    font-weight: normal;
+}
+#blue {
+    background-color: aquamarine;
+}
+h2 {
+    font-weight: bold;
+    color: steelblue;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    padding-left: 5%;
+}
+p .label {
+    border-style: ridge;
+
+}
