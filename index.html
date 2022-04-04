@@ -11,26 +11,34 @@
     <div class="container">
         <div class="company">
             <h1>Company Name</h1>
-            <label>[Street Address]</label><br>
-            <label>[City, ST ZIP]</label><br>
-            <label>Phone: [000-000-0000]</label><br>
-            <label>Fax: [000-000-0000]</label><br>
+            <label>[Street Address]</label>
+            <label>[City, ST ZIP]</label>
+            <label>Phone: [000-000-0000]</label>
+            <label>Fax: [000-000-0000]</label>
             <label>Website:somedomain.com</label>
-        </div>
-        <div id="invoice">
+            </div>
+            <div id="invoice">
             <h2>INVOICE</h2>
-            <label>DATE 12/9/2019</label><br>
-            <label>INVOICE# [123456]</label><br>
-            <label>CUSTOMER ID [123] </label><br>
-            DUE DATE<label id="blue">1/8/2020</label><br>
-        </div>
+            <p>DATE<label class="invoice">12/9/2019</label></p>
+            <p>INVOICE#<label class="invoice">[123456]</label></p>
+            <p>CUSTOMER ID<label class="invoice"> [123]</label></p>
+            <p>DUE DATE<label id="due_date">1/8/2020</label></p>
+            </div>
+    </div>
+    <div class="bill">
+    <h3>BILL TO</h3>
+    <label>[Name]</label>
+    <label>[Company Name]</label>
+    <label>[Street Address]</label>
+    <label>[City, ST ZIP]</label>
+    <label>[Phone]</label>
     </div>
     <main>
      <table>
          <tr>
-             <th id="bluee">DESCRIPTION</th>
-             <th id="bluee">TAXED</th>
-             <th id="bluee">AMOUNT</th>
+             <th>DESCRIPTION</th>
+             <th>TAXED</th>
+             <th>AMOUNT</th>
          </tr>
          <tr>
              <td>[Service fee]</td>
@@ -100,7 +108,7 @@
      </table>
 <div id="column">
     <div class="comments">
-        <label class="other">OTHER COMMENTS</label>
+        <h3>OTHER COMMENTS</h3>
         <ol>
             <li>Total payment due in 30days</li>
             <li>Please include the invoice number on your check</li>
