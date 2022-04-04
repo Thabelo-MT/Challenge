@@ -4,6 +4,9 @@ body {
     margin-right: 10%;
     margin-left: 10%;
 }
+#bluee {
+    background-color: navy;
+}
 h1 {
     color: navy;
     font-weight: normal;
