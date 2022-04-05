@@ -6,6 +6,7 @@ body {
     margin-right: 10%;
     margin-left: 10%;
     padding-left: 5%;
+    margin-top: 0%;
     padding-right: 5%;
 }
 p {
@@ -16,6 +17,8 @@ margin-top: 0%;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    padding-left: 2%;
+    margin-bottom: 2%;
 }
 h1 {
         color: rgb(50,69,139);;
@@ -26,6 +29,12 @@ h1 {
 h4 {
     background-color: 	rgb(50,69,139);
     width: 35%;
+    color: white;
+    padding-left: 2%;
+    margin-bottom: 0%;
+}
+.bill p {
+    padding-left: 2%;
 }
 .invoice {
     /* padding-left: 5%; */
@@ -33,6 +42,10 @@ h4 {
     border: 1px solid rgba(145, 145, 124, 0.909);
     border-width: 15%;
 }
+/* #invoice .invoice {
+    /* align-items: flex-end;
+    text-align: left;
+}  */
 #due_date {
     margin-left: 20%;
     border: 1px solid rgba(125, 124, 124, 0.209);
@@ -52,9 +65,24 @@ main {
     justify-content: center;
    
 }
-th {
+ table th {
     background-color: 	rgb(50,69,139);
-    /* align-items: center; */ 
+    text-align: center;
+    color: white;
+}
+table .amount {
+    text-align: right;
+}
+h5 {
+    background-color: 	rgb(50,69,139);
+    padding-left: 4%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: white;
+}
+
+.x {
+    text-align: center;
 }
 h2 {
     font-weight: bold;
@@ -70,15 +98,23 @@ th,tr, td {
   text-align: left;
   padding: 10px;
 }
-h3 {
-    background-color: (50,69,139);
+.comments {
+ border: 1px solid rgba(145, 145, 124, 0.909);
+ width:50%;
+}
+.comments ol {
+    margin-bottom: 15%;
 }
 tr:nth-child(even) {
-  background-color:rgb(235, 235, 235);
+  background-color:rgb(211, 211, 211);
 }
-.column {
-    display: flex;
-    flex-direction: column;
+table td {
+    /* border: 1px solid black; */
+    border-right: 1px solid black;
+}
+table tr {
+    width: 20%;
+    height: 45%;
 }
 .label {
     padding-left: 5%;
@@ -86,4 +122,27 @@ tr:nth-child(even) {
 p .label {
     border-style: ridge;
 
+}
+.column {
+    display: flex;
+    flex-direction: row;
+}
+.column .sub {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+   padding-right: 50%;
+}
+#para {
+    text-align: center;
+}
+/* hr {
+   
+} */
+footer {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+footer span {
+    padding-left: 10%;
 }
